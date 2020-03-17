@@ -1,0 +1,23 @@
+Last login: Tue Mar 17 10:14:28 2020 from 27.62.168.5
+ubuntu@ip-172-31-188-205:~$ mkdir terraform-vpc
+ubuntu@ip-172-31-188-205:~$ cd terraform-vpc
+ubuntu@ip-172-31-188-205:~/terraform-vpc$ ssh-keygen -f london-region-key-pair
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in london-region-key-pair.
+Your public key has been saved in london-region-key-pair.pub.
+The key fingerprint is:
+SHA256:QNIItrsrlj1t4nzpH7HEpTXgWaOioX81AnvX65Wq8qI ubuntu@ip-172-31-188-205
+The key's randomart image is:
++---[RSA 2048]----+
+|  o..o.. o       |
+| . ..oo = .      |
+|  .o ..+ +       |
+|  ..= o.= .      |
+| ..o o OS.       |
+|  ... = + . .    |
+|  +....o . o     |
+|.o.=.B  o o      |
+|..oEB.=+.o       |
++----[SHA256]-----+
